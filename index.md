@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MACAAMBAC PAGE</title>
+    <title>JADE P MACAAMBAC,CSP,CST,SO3</title>
     <style>
         body {
             margin: 0;
@@ -51,7 +51,7 @@
 
         .section {
             padding: 50px 20px;
-            text-align: left;
+            text-align: center;
         }
 
         .section:nth-child(even) {
@@ -67,14 +67,16 @@
         .section p {
             font-size: 1.2rem;
             line-height: 1.6;
+            text-align: left;
         }
 
         .section img {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            margin-bottom: 20px;
+            margin-right: 20px;
             border: 3px solid #00d1ff;
+            float: left;
         }
 
         footer {
@@ -116,6 +118,13 @@
             .section img {
                 width: 100px;
                 height: 100px;
+                float: none;
+                margin: 0 auto 20px auto;
+                display: block;
+            }
+
+            .section p {
+                text-align: center;
             }
         }
     </style>
@@ -134,7 +143,7 @@
 
     <section id="about" class="section">
         <h2>About Me</h2>
-        <img src="jade.jpg" alt="Your Name">
+        <img src="jade.jpg" alt="Jade Macaambac">
         <p>A meticulously dedicated professional looking for a job as a Security Professional in a company where I can share my abilities and knowledge while being given opportunities for career growth.</p>
     </section>
 
