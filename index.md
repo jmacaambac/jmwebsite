@@ -81,6 +81,30 @@
             color: #00d1ff;
             font-size: 1rem;
         }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                font-size: 1rem;
+                padding: 8px 15px;
+            }
+
+            .section h2 {
+                font-size: 2rem;
+            }
+
+            .section p {
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -97,12 +121,54 @@
 
     <section id="about" class="section">
         <h2>About Me</h2>
-        <p>Welcome to my portfolio! I'm passionate about technology, design, and innovation. This page showcases my journey, skills, and creations.</p>
+        <p>A meticulously dedicated professional looking for a job as a Security Professional in a company where I can share my abilities and knowledge while being given opportunities for career growth.</p>
     </section>
 
     <section id="skills" class="section">
         <h2>Skills</h2>
-        <p>Proficient in security management, surveillance analysis, and exploring graphic design. Continuously learning new tools and technologies to enhance my expertise.</p>
+        <p>Lean Six Sigma White Belt<br>
+        ASQ Certified MBB - 65316044<br>
+        February 1, 2023</p>
+        <p>Loss Control Management and HIRAC (SO3)<br>
+        DOLE Prescribed 40-Hour Training Course in LCM<br>
+        BeSafe Training Management<br>
+        September 12-15, 2022</p>
+        <p>16TH NOSH CONGRESS<br>
+        OSH Center<br>
+        November 20-21, 2018</p>
+        <p>PRIVATE SECURITY EXECUTIVE MANAGEMENT<br>
+        PNP-CSG SOSIA<br>
+        September 29-30, 2016</p>
+        <p>INFORMATION SECURITY MANAGEMENT SYSTEMS TRAINING<br>
+        February 24 – 25, 2011<br>
+        Accenture Pioneer House<br>
+        Cardinal Rosales Ave., CBP, Cebu City</p>
+        <p>FIRST AID TRAINING (STANDARD)<br>
+        September 6 – 9, 2010<br>
+        Philippine National Red Cross Cebu Chapter<br>
+        Fuente Osmeña Blvd., Cebu City</p>
+        <p>Quality Management System - ISO 9001:2015<br>
+        CQL Business Systems Consulting<br>
+        May 11, 2018</p>
+        <p>CERTIFIED SECURITY TRAINER<br>
+        PARSTSI Certification Number: 2015-638<br>
+        May 17, 2015</p>
+        <p>BASIC OCCUPATIONAL SAFETY AND HEALTH<br>
+        (BWC-DOLE)<br>
+        SOPI, ID 14-0000169<br>
+        April 30, 2014 – Present</p>
+        <p>CERTIFIED SECURITY PROFESSIONAL<br>
+        PSIS, License 13-252-5271<br>
+        February 2013 – Present</p>
+        <p>BUSINESS CONTINUITY MANAGEMENT TRAINING<br>
+        March 1, 2011<br>
+        Accenture Pioneer House Bldg.<br>
+        Cardinal Rosales Ave., CBP, Cebu City</p>
+        <p>BASIC LIFE SUPPORT<br>
+        (CPR for HEALTHCARE PROVIDER)<br>
+        September 14 – 15, 2010<br>
+        Philippine National Red Cross Cebu Chapter<br>
+        Fuente Osmeña Blvd., Cebu City</p>
     </section>
 
     <section id="projects" class="section">
@@ -113,6 +179,10 @@
     <section id="contact" class="section">
         <h2>Contact</h2>
         <p>Feel free to reach out for collaborations or inquiries. Together, we can create something amazing!</p>
+        <p>+639666096060</p>
+        <p>+639988596060</p>
+        <p>jade.macaambac@gmail.com</p>
+        <p>jade.macaambac@outlook.com</p>
     </section>
 
     <footer>
