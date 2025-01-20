@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JADE P MACAAMBAC,CSP,CST,SO3</title>
+    <title>MACAAMBAC PAGE</title>
     <style>
         body {
             margin: 0;
@@ -131,7 +131,7 @@
 </head>
 <body>
     <header>
-        <h1>MACAAMBAC PAGE</h1>
+        <h1>JADE P MACAAMBAC, CSP, CST, OSH-SO3</h1>
     </header>
 
     <nav>
