@@ -143,7 +143,7 @@
 
     <section id="about" class="section">
         <h2>About Me</h2>
-        <img src="jade.jpg" alt="Jade Macaambac">
+        <img src="jade2.jpg" alt="Jade Macaambac">
         <p>A meticulously dedicated professional looking for a job as a Security Professional in a company where I can share my abilities and knowledge while being given opportunities for career growth.</p>
     </section>
 
