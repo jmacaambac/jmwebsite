@@ -51,7 +51,7 @@
 
         .section {
             padding: 50px 20px;
-            text-align: center;
+            text-align: left;
         }
 
         .section:nth-child(even) {
