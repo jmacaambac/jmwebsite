@@ -145,7 +145,7 @@
         <h2>About Me</h2>
         <img src="jade2.jpg" alt="Jade Macaambac">
         <p>A meticulously dedicated professional looking for a job as a Security Professional in a company where I can share my abilities and knowledge while being given opportunities for career growth.</p>
-        <p>"KRATOS"</p>
+        <p>KRATOS</p>
     </section>
 
     <section id="skills" class="section">
