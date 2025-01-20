@@ -69,6 +69,14 @@
             line-height: 1.6;
         }
 
+        .section img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #00d1ff;
+        }
+
         footer {
             text-align: center;
             padding: 20px;
@@ -104,6 +112,11 @@
             .section p {
                 font-size: 1rem;
             }
+
+            .section img {
+                width: 100px;
+                height: 100px;
+            }
         }
     </style>
 </head>
@@ -121,54 +134,68 @@
 
     <section id="about" class="section">
         <h2>About Me</h2>
+        <img src="https://github.com/jmacaambac/jmwebsite/blob/main/jade.jpg" alt="Your Name">
         <p>A meticulously dedicated professional looking for a job as a Security Professional in a company where I can share my abilities and knowledge while being given opportunities for career growth.</p>
     </section>
 
     <section id="skills" class="section">
         <h2>Skills</h2>
-        <p>Lean Six Sigma White Belt<br>
-        ASQ Certified MBB - 65316044<br>
-        February 1, 2023</p>
-        <p>Loss Control Management and HIRAC (SO3)<br>
-        DOLE Prescribed 40-Hour Training Course in LCM<br>
-        BeSafe Training Management<br>
-        September 12-15, 2022</p>
-        <p>16TH NOSH CONGRESS<br>
-        OSH Center<br>
-        November 20-21, 2018</p>
-        <p>PRIVATE SECURITY EXECUTIVE MANAGEMENT<br>
-        PNP-CSG SOSIA<br>
-        September 29-30, 2016</p>
-        <p>INFORMATION SECURITY MANAGEMENT SYSTEMS TRAINING<br>
-        February 24 – 25, 2011<br>
-        Accenture Pioneer House<br>
-        Cardinal Rosales Ave., CBP, Cebu City</p>
-        <p>FIRST AID TRAINING (STANDARD)<br>
-        September 6 – 9, 2010<br>
-        Philippine National Red Cross Cebu Chapter<br>
-        Fuente Osmeña Blvd., Cebu City</p>
-        <p>Quality Management System - ISO 9001:2015<br>
-        CQL Business Systems Consulting<br>
-        May 11, 2018</p>
-        <p>CERTIFIED SECURITY TRAINER<br>
-        PARSTSI Certification Number: 2015-638<br>
-        May 17, 2015</p>
-        <p>BASIC OCCUPATIONAL SAFETY AND HEALTH<br>
-        (BWC-DOLE)<br>
-        SOPI, ID 14-0000169<br>
-        April 30, 2014 – Present</p>
-        <p>CERTIFIED SECURITY PROFESSIONAL<br>
-        PSIS, License 13-252-5271<br>
-        February 2013 – Present</p>
-        <p>BUSINESS CONTINUITY MANAGEMENT TRAINING<br>
-        March 1, 2011<br>
-        Accenture Pioneer House Bldg.<br>
-        Cardinal Rosales Ave., CBP, Cebu City</p>
-        <p>BASIC LIFE SUPPORT<br>
-        (CPR for HEALTHCARE PROVIDER)<br>
-        September 14 – 15, 2010<br>
-        Philippine National Red Cross Cebu Chapter<br>
-        Fuente Osmeña Blvd., Cebu City</p>
+        <p>
+            Lean Six Sigma White Belt<br>
+            ASQ Certified MBB - 65316044<br>
+            February 1, 2023<br><br>
+
+            Loss Control Management and HIRAC (SO3)<br>
+            DOLE Prescribed 40-Hour Training Course in LCM<br>
+            BeSafe Training Management<br>
+            September 12-15, 2022<br><br>
+
+            16TH NOSH CONGRESS<br>
+            OSH Center<br>
+            November 20-21, 2018<br><br>
+
+            PRIVATE SECURITY EXECUTIVE MANAGEMENT<br>
+            PNP-CSG SOSIA<br>
+            September 29-30, 2016<br><br>
+
+            INFORMATION SECURITY MANAGEMENT SYSTEMS TRAINING<br>
+            February 24 – 25, 2011<br>
+            Accenture Pioneer House<br>
+            Cardinal Rosales Ave., CBP, Cebu City<br><br>
+
+            FIRST AID TRAINING (STANDARD)<br>
+            September 6 – 9, 2010<br>
+            Philippine National Red Cross Cebu Chapter<br>
+            Fuente Osmeña Blvd., Cebu City<br><br>
+
+            Quality Management System - ISO 9001:2015<br>
+            CQL Business Systems Consulting<br>
+            May 11, 2018<br><br>
+
+            CERTIFIED SECURITY TRAINER<br>
+            PARSTSI Certification Number: 2015-638<br>
+            May 17, 2015<br><br>
+
+            BASIC OCCUPATIONAL SAFETY AND HEALTH<br>
+            (BWC-DOLE)<br>
+            SOPI, ID 14-0000169<br>
+            April 30, 2014 – Present<br><br>
+
+            CERTIFIED SECURITY PROFESSIONAL<br>
+            PSIS, License 13-252-5271<br>
+            February 2013 – Present<br><br>
+
+            BUSINESS CONTINUITY MANAGEMENT TRAINING<br>
+            March 1, 2011<br>
+            Accenture Pioneer House Bldg.<br>
+            Cardinal Rosales Ave., CBP, Cebu City<br><br>
+
+            BASIC LIFE SUPPORT<br>
+            (CPR for HEALTHCARE PROVIDER)<br>
+            September 14 – 15, 2010<br>
+            Philippine National Red Cross Cebu Chapter<br>
+            Fuente Osmeña Blvd., Cebu City
+        </p>
     </section>
 
     <section id="projects" class="section">
