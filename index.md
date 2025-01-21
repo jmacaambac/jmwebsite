@@ -222,7 +222,7 @@
     <section id="projects">
         <h2>Projects</h2>
         <p>From ensuring secure environments to designing innovative layouts, here are some of the works I'm proud of. Stay tuned for updates!</p>
-        <p><a href="projects-folder-link" target="_blank">View Projects</a></p>
+        <p><a href="https://drive.google.com/drive/folders/1rFNJBQ2YILCvsLM7S93YuR212mzpdwTe?usp=drive_link" target="_blank">View Projects</a></p>
         <div class="back-button"><a href="#">Back to Top</a></div>
     </section>
 
