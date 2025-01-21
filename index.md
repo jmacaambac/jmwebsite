@@ -238,5 +238,5 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Professional Portfolio. All Rights Reserved.</p>
+        <p>&copy; 2025 Jade Macaambac. All Rights Reserved.</p>
     </footer>
