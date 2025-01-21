@@ -113,8 +113,9 @@
         <div class="profile-picture">
             <img src="jade3.jpg" alt="Your Picture">
         </div>
-        <p>Your Name</p>
+        <p>Jade Macaambac</p>
         <p>A meticulously dedicated professional looking for a job as a Security Professional in a company where I can share my abilities and knowledge while being given opportunities for career growth.</p>
+        <p>"KRATOS</p>
         <div class="back-button"><a href="#">Back to Top</a></div>
     </section>
 
