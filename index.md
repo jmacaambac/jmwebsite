@@ -96,7 +96,7 @@
 </head>
 <body>
    <header style="display: flex; align-items: center; padding: 1rem; background-color: #333; color: #fff;">
-    <img src="JPM Logo2.png" alt="Your Logo" style="max-width: 80px; margin-right: 1rem;">
+    <img src="JPM Logo.png" alt="Your Logo" style="max-width: 80px; margin-right: 1rem;">
     <h1 style="margin: 0;">JADE MACAAMBAC, CSP, CST, OSH-SO3</h1>
     </header>
 
