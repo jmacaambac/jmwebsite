@@ -2,151 +2,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MACAAMBAC PAGE</title>
+    <title>JADE MACAAMBAC Portfolio</title>
     <style>
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
             color: #fff;
         }
 
         header {
+            position: relative;
+            background: url('your-image.jpg') no-repeat center center/cover;
+            height: 100vh;
             display: flex;
-            justify-content: center;
             align-items: center;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.8);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            justify-content: space-between;
+            color: #fff;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
         }
 
-        header h1 {
+        .header-content {
+            padding-left: 50px;
+        }
+
+        .header-content h1 {
             font-size: 3rem;
-            letter-spacing: 0.5rem;
-            color: #00d1ff;
-            text-transform: uppercase;
+            margin: 0;
         }
 
-        nav {
-            margin-top: 50px;
+        .header-content h1 span {
+            display: block;
+            font-size: 2rem;
+            color: #f1c40f;
+        }
+
+        .header-content p {
+            font-size: 1.5rem;
+        }
+
+        .navigation {
+            position: absolute;
+            top: 50%;
+            right: 50px;
+            transform: translateY(-50%);
             display: flex;
-            justify-content: center;
-            gap: 20px;
+            flex-direction: column;
+            gap: 15px;
         }
 
-        nav a {
+        .navigation a {
             text-decoration: none;
             padding: 10px 20px;
             font-size: 1.2rem;
             color: #fff;
-            background: linear-gradient(90deg, #0f9b0f, #00ff95);
+            background: rgba(0, 0, 0, 0.7);
             border-radius: 25px;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: background 0.3s ease, transform 0.3s ease;
         }
 
-        nav a:hover {
+        .navigation a:hover {
+            background: #f1c40f;
+            color: #000;
             transform: scale(1.1);
-            box-shadow: 0 4px 15px rgba(0, 255, 150, 0.75);
         }
 
-        .section {
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        .section:nth-child(even) {
-            background: rgba(255, 255, 255, 0.1);
-        }
-
-        .section h2 {
-            font-size: 2.5rem;
-            color: #00d1ff;
-            margin-bottom: 20px;
-        }
-
-        .section p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-            text-align: left;
-        }
-
-        .section img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-right: 20px;
-            border: 3px solid #00d1ff;
-            float: left;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.9);
-            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
-        }
-
-        footer p {
-            margin: 0;
-            color: #00d1ff;
-            font-size: 1rem;
+        .logo {
+            position: absolute;
+            left: 50px;
+            bottom: 50px;
+            font-size: 5rem;
+            color: #fff;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
         }
 
         @media (max-width: 768px) {
-            header h1 {
+            .header-content {
+                padding-left: 20px;
+            }
+
+            .header-content h1 {
                 font-size: 2rem;
             }
 
-            nav {
-                flex-direction: column;
-                gap: 10px;
+            .header-content h1 span {
+                font-size: 1.5rem;
             }
 
-            nav a {
-                font-size: 1rem;
-                padding: 8px 15px;
-            }
-
-            .section h2 {
-                font-size: 2rem;
-            }
-
-            .section p {
+            .header-content p {
                 font-size: 1rem;
             }
 
-            .section img {
-                width: 100px;
-                height: 100px;
-                float: none;
-                margin: 0 auto 20px auto;
-                display: block;
+            .navigation {
+                right: 20px;
             }
 
-            .section p {
-                text-align: center;
+            .logo {
+                font-size: 3rem;
+                left: 20px;
+                bottom: 20px;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>JADE P MACAAMBAC, CSP, CST, OSH-SO3</h1>
-    </header>
+        <div class="header-content">
+            <h1>JADE MACAAMBAC,<span>CSP, CST, OSH-SO3</span></h1>
+            <p>Professional Portfolio</p>
+        </div>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <nav class="navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="logo">JPM</div>
+    </header>
 
     <section id="about" class="section">
         <h2>About Me</h2>
-        <img src="jade2.jpg" alt="Jade Macaambac">
+        <img src="your-photo.jpg" alt="Your Name" style="float: left; margin-right: 20px; border-radius: 50%; width: 150px;">
         <p>A meticulously dedicated professional looking for a job as a Security Professional in a company where I can share my abilities and knowledge while being given opportunities for career growth.</p>
-        <p>KRATOS</p>
     </section>
 
     <section id="skills" class="section">
