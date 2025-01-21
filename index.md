@@ -96,6 +96,7 @@
 </head>
 <body>
     <header>
+         <img src="JPM Logo2.png" alt="Your Logo" style="max-width: 150px; display: block; margin: 0 auto;">
         <h1>Professional Portfolio</h1>
     </header>
 
