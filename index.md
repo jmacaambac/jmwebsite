@@ -113,65 +113,65 @@
         <div class="profile-picture">
             <img src="jade3.jpg" alt="Your Picture">
         </div>
-        <p><strong>Jade Macaambac<strong></p>
+        <p><strong>JADE MACAAMBAC</strong></p>
         <p>A meticulously dedicated professional looking for a job as a Security Professional in a company where I can share my abilities and knowledge while being given opportunities for career growth.</p>
-        <p><strong>"KRATOS"<strong></p>
+        <p><strong>"KRATOS"</strong></p>
         <div class="back-button"><a href="#">Back to Top</a></div>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
         <p>
-            <strong>Lean Six Sigma White Belt<strong><br>
+            <strong>Lean Six Sigma White Belt</strong><br>
             ASQ Certified MBB - 65316044<br>
             February 1, 2023<br><br>
 
-            <strong>Loss Control Management and HIRAC (SO3)<strong><br>
+            <strong>Loss Control Management and HIRAC (SO3)</strong><br>
             DOLE Prescribed 40-Hour Training Course in LCM<br>
             BeSafe Training Management<br>
             September 12-15, 2022<br><br>
 
-            <strong>16TH NOSH CONGRESS<strong><br>
+            <strong>16TH NOSH CONGRESS</strong><br>
             OSH Center<br>
             November 20-21, 2018<br><br>
 
-            <strong>PRIVATE SECURITY EXECUTIVE MANAGEMENT<strong><br>
+            <strong>PRIVATE SECURITY EXECUTIVE MANAGEMENT</strong><br>
             PNP-CSG SOSIA<br>
             September 29-30, 2016<br><br>
 
-            <strong>INFORMATION SECURITY MANAGEMENT SYSTEMS TRAINING<strong><br>
+            <strong>INFORMATION SECURITY MANAGEMENT SYSTEMS TRAINING</strong><br>
             February 24 – 25, 2011<br>
             Accenture Pioneer House<br>
             Cardinal Rosales Ave., CBP, Cebu City<br><br>
 
-            <strong>FIRST AID TRAINING (STANDARD)<strong><br>
+            <strong>FIRST AID TRAINING (STANDARD)</strong><br>
             September 6 – 9, 2010<br>
             Philippine National Red Cross Cebu Chapter<br>
             Fuente Osmeña Blvd., Cebu City<br><br>
 
-            <strong>Quality Management System - ISO 9001:2015<strong><br>
+            <strong>Quality Management System - ISO 9001:2015</strong><br>
             CQL Business Systems Consulting<br>
             May 11, 2018<br><br>
 
-            <strong>CERTIFIED SECURITY TRAINER<strong><br>
+            <strong>CERTIFIED SECURITY TRAINER</strong><br>
             PARSTSI Certification Number: 2015-638<br>
             May 17, 2015<br><br>
 
-            <strong>BASIC OCCUPATIONAL SAFETY AND HEALTH<strong><br>
+            <strong>BASIC OCCUPATIONAL SAFETY AND HEALTH</strong><br>
             (BWC-DOLE)<br>
             SOPI, ID 14-0000169<br>
             April 30, 2014 – Present<br><br>
 
-            <strong>CERTIFIED SECURITY PROFESSIONAL<strong><br>
+            <strong>CERTIFIED SECURITY PROFESSIONAL</strong><br>
             PSIS, License 13-252-5271<br>
             February 2013 – Present<br><br>
 
-            <strong>BUSINESS CONTINUITY MANAGEMENT TRAINING<strong><br>
+            <strong>BUSINESS CONTINUITY MANAGEMENT TRAINING</strong><br>
             March 1, 2011<br>
             Accenture Pioneer House Bldg.<br>
             Cardinal Rosales Ave., CBP, Cebu City<br><br>
 
-            <strong>BASIC LIFE SUPPORT<strong><br>
+            <strong>BASIC LIFE SUPPORT</strong><br>
             (CPR for HEALTHCARE PROVIDER)<br>
             September 14 – 15, 2010<br>
             Philippine National Red Cross Cebu Chapter<br>
@@ -183,37 +183,37 @@
     <section id="experience">
         <h2>Experience</h2>
         <p>
-            <strong>Security and Loss Prevention Operations<strong><br>
+            <strong>Security and Loss Prevention Operations</strong><br>
             Airfreight2100 Inc.<br><br>
             
-            <strong>Security and Loss Prevention Operations<strong><br>
+            <strong>Security and Loss Prevention Operations</strong><br>
             Entrego Express Corporation<br><br>
             
-            <strong>Corporate Security Assistant Manager<strong><br>
+            <strong>Corporate Security Assistant Manager</strong><br>
             Aseana Real Estate Services and Management<br><br>
             
-            <strong>General Manager<strong><br>
+            <strong>General Manager</strong><br>
             Detectnet Security Agency Corporation<br><br>
             
-            <strong>Operations Manager<strong><br>
+            <strong>Operations Manager</strong><br>
             Detectnet Security Agency Corporation<br><br>
             
-            <strong>Project Manager<strong><br>
+            <strong>Project Manager</strong><br>
             MG Lanting Security Specialist Agency Inc.<br><br>
             
-            <strong>Physical Security Lead (Assistant Security Manager) Provincial Operations<strong><br>
+            <strong>Physical Security Lead (Assistant Security Manager) Provincial Operations</strong><br>
             Teleperformance Philippines<br><br>
             
-            <strong>Site Commander<strong><br>
+            <strong>Site Commander</strong><br>
             Teleperformance Philippines<br><br>
             
-            <strong>Area Coordinator<strong><br>
+            <strong>Area Coordinator</strong><br>
             BULLDOG Security Agency Inc.<br><br>
             
-            <strong>Officer in Charge - Accenture Account<strong><br>
+            <strong>Officer in Charge - Accenture Account</strong><br>
             BULLDOG Security Agency Inc.<br><br>
             
-            <strong>Detachment Commander<strong><br>
+            <strong>Detachment Commander</strong><br>
             RCC Land Development Property<br><br>
         </p>
         <div class="back-button"><a href="#">Back to Top</a></div>
