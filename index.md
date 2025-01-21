@@ -137,6 +137,7 @@
     <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
@@ -208,9 +209,56 @@
         </p>
     </section>
 
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <p>
+            Security and Loss Prevention Operations<br>
+            Airfeight2100 Inc.<br><br>
+
+            Security and Loss Prevention Operations<br>
+            Entrego Express Corporation<br><br>
+
+            Corporate Security Assistant Manager<br>
+            Aseana Real Estate Services and Management<br><br>
+
+            General Manager<br>
+            Detectnet Security Agency Corporation<br><br>
+
+            Operations Manager<br>
+            Detectnet Security Agency Corporation<br><br>
+
+            Project Manager<br>
+            MG Lanting Security Specialist Agency Inc.<br><br>
+
+            Physical Security Lead (Assistant Security Manager) Provincial Operations<br>
+            Teleperformance Philippines<br><br>
+
+            Site Commander<br>
+            Teleperformance Philippines<br><br>
+
+            Area Coordinator<br>
+            BULLDOG Security Agency Inc.<br><br>
+
+            Officer in Charge - Accenture Account<br>
+            BULLDOG Security Agency Inc.<br><br>
+
+            Detachment Commander<br>
+            RCC Land Development Property<br><br>
+
     <section id="projects" class="section">
         <h2>Projects</h2>
         <p>From ensuring secure environments to designing innovative layouts, here are some of the works I'm proud of. Stay tuned for updates!</p>
+        <a href="https://drive.google.com/drive/folders/1rFNJBQ2YILCvsLM7S93YuR212mzpdwTe?usp=drive_link" target="_blank" style="
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #0f9b0f, #00ff95);
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;">
+    Projects Link
+</a>
     </section>
 
     <section id="contact" class="section">
