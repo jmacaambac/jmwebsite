@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio</title>
+    <title>Jade Macaambac Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -63,13 +63,13 @@
         .back-button {
             display: block;
             margin: 1rem 0;
-            text-align: center;
+            text-align: right;
         }
 
         .back-button a {
             text-decoration: none;
             color: #fff;
-            background-color: #007BFF;
+            background-color: #37474F;
             padding: 0.5rem 1rem;
             border-radius: 4px;
         }
@@ -83,7 +83,7 @@
         }
 
         .profile-picture {
-            text-align: center;
+            text-align: left;
             margin: 1rem 0;
         }
 
@@ -111,12 +111,11 @@
     <section id="about">
         <h2>About Me</h2>
         <div class="profile-picture">
-            <img src="jade3.jpg" alt="Your Picture">
+            <img src="jade3.jpg" alt="Jade Macaambac">
         </div>
-        <p><strong>JADE MACAAMBAC</strong></p>
         <p>A meticulously dedicated professional looking for a job as a Security Professional in a company where I can share my abilities and knowledge while being given opportunities for career growth.</p>
         <p><strong>"KRATOS"</strong></p>
-        <div class="back-button"><a href="#">Back to Top</a></div>
+        <div class="back-button"><a href="#">Mac am Back</a></div>
     </section>
 
     <section id="skills">
@@ -177,7 +176,7 @@
             Philippine National Red Cross Cebu Chapter<br>
             Fuente Osmeña Blvd., Cebu City
         </p>
-        <div class="back-button"><a href="#">Back to Top</a></div>
+        <div class="back-button"><a href="#">Mac am Back</a></div>
     </section>
 
     <section id="experience">
@@ -216,14 +215,14 @@
             <strong>Detachment Commander</strong><br>
             RCC Land Development Property<br><br>
         </p>
-        <div class="back-button"><a href="#">Back to Top</a></div>
+        <div class="back-button"><a href="#">Mac am Back</a></div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
         <p>From ensuring secure environments to designing innovative layouts, here are some of the works I'm proud of. Stay tuned for updates!</p>
         <p><a href="https://drive.google.com/drive/folders/1rFNJBQ2YILCvsLM7S93YuR212mzpdwTe?usp=drive_link" target="_blank">View Projects</a></p>
-        <div class="back-button"><a href="#">Back to Top</a></div>
+        <div class="back-button"><a href="#">Mac am Back</a></div>
     </section>
 
     <section id="contact">
@@ -234,7 +233,7 @@
             <p><a href="mailto:jade.macaambac@gmail.com">jade.macaambac@gmail.com</a></p>
             <p><a href="mailto:jade.macaambac@outlook.com">jade.macaambac@outlook.com</a></p>
         </div>
-        <div class="back-button"><a href="#">Back to Top</a></div>
+        <div class="back-button"><a href="#">Mac am Back</a></div>
     </section>
 
     <footer>
