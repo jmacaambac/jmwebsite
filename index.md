@@ -13,8 +13,8 @@
         }
 
         header {
-            background-color: #333;
-            color: #fff;
+            background-color: #fff;
+            color: #333;
             padding: 1rem 0;
             text-align: center;
         }
