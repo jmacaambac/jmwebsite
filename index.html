@@ -112,5 +112,33 @@
             background-color: #0056b3;
         }
     </style>
+
+        <div class="image-container">
+        <!-- Picture that links back to the Home page -->
+        <a href="index.html">
+            <img src="image1.jpg" alt="Image Description" class="clickable-image">
+        </a>
+    </div>
+
+    <style>
+        .image-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .clickable-image {
+            max-width: 80%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .clickable-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </body>
 </html>
