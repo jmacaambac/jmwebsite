@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Jade Macaambac Bio</title>
     <style>
+          @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -47,6 +58,9 @@
         .logo img {
             max-width: 100px;
             margin-right: 20px;
+        }
+         .logo img:hover {
+            transform: scale(1.1);
         }
 
         .buttons {
@@ -102,7 +116,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo">
+        <div class="logo" onclick="window.location.href='index.html';">
             <img src="JPM Logo2.png" alt="JPM Official Logo">
             <div>
                 <h1>JADE MACAAMBAC, CSP, CST, OSH-SO3</h1>
