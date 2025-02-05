@@ -112,11 +112,13 @@
             }
 
         .logo {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-            position: relative;
-            cursor: pointer;
+            max-width: 75px;
+            margin-bottom: 80px;
+            transition: transform 0.3s ease-in-out;
+            }
+        
+        .logo:hover {
+            transform: scale(1.9);
             }
 
         .logo img {
@@ -162,12 +164,11 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo" onclick="window.location.href='index.html';">
-            <img id="main-logo" src="JPM Logo2.png" alt="JPM Official Logo" onmouseover="shatterLogo()">
-            <div class="shattered" id="shattered-logo"></div>
+    <img src="Final Adventure Logo.png" class="logo-hover" alt="My Travel Logo">   
+    </div>
             <div>
                 <h1>JADE MACAAMBAC, CSP, CST, OSH-SO3</h1>
-                <h2>Security Professional and Basic Graphic Design</h2>
+                <h2><strong></strong>Security Professional and Basic Graphic Design<strong></strong></h2>
             </div>
         </div>
        <div class="menu-bar">
