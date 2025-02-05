@@ -17,15 +17,12 @@
         }
 
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: url('jade4.jpg') no-repeat center center fixed;
-            background-size: cover;
+           font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            color: #333;
+            background-color: #f4f4f4;
         }
 
         .container {
@@ -36,6 +33,53 @@
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
             max-width: 1000px;
             width: 90%;
+        }
+        .menu-bar {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background: #2c3e50;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .menu-item {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: width 0.3s, background 0.3s;
+            overflow: hidden;
+        }
+        .menu-item:hover {
+            width: 180px;
+            background-color: #2980b9;
+            border-radius: 25px;
+        }
+        .menu-item img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+            transition: margin-left 0.3s;
+        }
+        .menu-item:hover img {
+            margin-left: 10px;
+        }
+        .menu-text {
+            position: absolute;
+            left: 60px;
+            color: #fff;
+            font-size: 16px;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .menu-item:hover .menu-text {
+            opacity: 1;
         }
 
         h1 {
@@ -61,46 +105,6 @@
             max-width: 100px;
             margin-right: 20px;
         }
-        .shattered {
-            position: absolute;
-            width: 100px;
-            height: 100px;
-            display: flex;
-            flex-wrap: wrap;
-            pointer-events: none;
-        }
-
-        .shattered div {
-            width: 20px;
-            height: 20px;
-            background-image: url('your-logo-link.jpg');
-            background-size: 100px 100px;
-            position: absolute;
-        }
-
-        .buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin-top: 20px;
-        }
-
-        .buttons a {
-            text-decoration: none;
-            background: #333;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 5px;
-            text-align: center;
-            font-size: 1.1rem;
-            transition: background 0.3s ease;
-        }
-
-        .buttons a:hover {
-            background: #007BFF;
-            transform: scale(1.1);
-        }
-
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -141,14 +145,19 @@
                 <h2>Security Professional and Basic Graphic Design</h2>
             </div>
         </div>
-        <div class="buttons">
-       
-        <a href="About Page.png" target="_blank" class="button-link">About</a>
-        <a href="Skills Page.png" target="_blank" class="button-link">Skills</a>
-        <a href="Experience Page.png" target="_blank" class="button-link">Experience</a>
-        <a href="https://drive.google.com/drive/folders/1rFNJBQ2YILCvsLM7S93YuR212mzpdwTe?usp=drive_link" target="_blank" class="button-link">Projects</a>
-        <a href="https://jmacaambac.github.io/jpm/" target="_blank" class="button-link">Resume</a>
-        <a href="Contacts.png" target="_blank" class="button-link">Contact</a>
+       <div class="menu-bar">
+        <div class="menu-item">
+            <img src="about.png" alt="About">
+            <span class="menu-text">About</span>
+        </div>
+        <div class="menu-item">
+            <img src="skills.png" alt="Skills">
+            <span class="menu-text">Skills</span>
+        </div>
+        <div class="menu-item">
+            <img src="experience.png" alt="Experience">
+            <span class="menu-text">Experience</span>
+        </div>
     </div>
 
     </style>
