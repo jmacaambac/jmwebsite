@@ -14,8 +14,6 @@
                 opacity: 1;
                 transform: translateY(0);
             }
-        }
-
         body {
             font-family: Century Gothic, sans-serif;
             display: flex;
@@ -26,17 +24,17 @@
             background-size: cover;
             background-position: center;
             text-align: center;
-        }
-
+            }
         .container {
             text-align: left;
-            background: rgba(255, 255, 255, 0.9);
+            background-image: url('jade14.jpg');
+            background-position: center;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
             max-width: 1000px;
             width: 90%;
-        }
+            }
         .menu-bar {
             display: flex;
             flex-direction: column;
@@ -44,7 +42,7 @@
             background: #2c3e50;
             padding: 10px;
             border-radius: 10px;
-        }
+            }
         .menu-item {
             position: relative;
             width: 50px;
@@ -57,21 +55,21 @@
             cursor: pointer;
             transition: width 0.3s, background 0.3s;
             overflow: hidden;
-        }
+            }
         .menu-item:hover {
             width: 180px;
             background-color: #2980b9;
             border-radius: 25px;
-        }
+            }
         .menu-item img {
             width: 30px;
             height: 30px;
             margin-left: 10px;
             transition: margin-left 0.3s;
-        }
+            }
         .menu-item:hover img {
             margin-left: 10px;
-        }
+            }
         .menu-text {
             position: absolute;
             left: 60px;
@@ -80,65 +78,56 @@
             white-space: nowrap;
             opacity: 0;
             transition: opacity 0.3s;
-        }
+            }
         .menu-item:hover .menu-text {
             opacity: 1;
-        }
+            }
 
         h1 {
             margin: 0;
             font-size: 2.5rem;
-        }
+            }
 
         h2 {
             margin: 10px 0 20px;
             font-weight: 300;
             color: #666;
-        }
-
-        .logo {
+            }
+         .logo {
             display: flex;
             align-items: center;
             margin-bottom: 20px;
             position: relative;
             cursor: pointer;
-        }
-
+            }
         .logo img {
             max-width: 100px;
             margin-right: 20px;
-        }
+            }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('jade14.jpg');
-            background-size: cover;
-            background-position: center;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-        }
-
+            }
         .content {
             flex: 1;
-        }
-
+            }
         footer {
             background-color: #333;
             color: #fff;
             text-align: center;
             padding: 1rem 0;
-        }
-
+            }
         footer a {
             color: #007BFF;
             text-decoration: none;
-        }
-
+            }
         footer a:hover {
             text-decoration: underline;
-        }
+            }
     </style>
 </head>
 <body>
@@ -180,7 +169,6 @@
 
     </style>
         </div>
-
     <div class= "footer">
         <p>&copy; 2025 Jade Macaambac Website. All Rights Reserved.</p>
         <p>
@@ -190,7 +178,6 @@
             <a href="mailto:jade.macaambac@outlook.com">Email Me</a>
         </p>
      </div>
-
     <script>
         function shatterLogo() {
             const logo = document.getElementById('main-logo');
@@ -207,17 +194,13 @@
                 piece.style.animation = `explode 0.6s ease-out forwards`;
                 shatteredContainer.appendChild(piece);
             }
-        }
-
         document.addEventListener("animationend", function() {
             document.getElementById("shattered-logo").style.display = "none";
         });
-
         document.addEventListener("click", function() {
             document.getElementById("main-logo").style.display = "block";
             document.getElementById("shattered-logo").innerHTML = "";
         });
-
         document.head.insertAdjacentHTML("beforeend", `
             <style>
                 @keyframes explode {
