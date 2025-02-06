@@ -43,57 +43,6 @@
             width: 90%;
             margin-bottom: 10px;
             }
-
-        .logo-bar {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            background-color: rgba(255,255,255,0.5);
-            padding: 30px;
-            border-radius: 3px;
-            }
-        
-         .logo-item {
-            position: absolute;
-            width: 200px;
-            height: 200px;
-            background-color: rgba(255,255,255,0.5);
-            border-radius: 20%;
-            display: flex;
-            justify-content: right;
-            align-items: right;
-            cursor: pointer;
-            transition: width 0.3s, background 0.3s;
-            overflow: hidden;
-            }
-
-        .logo-item:hover {
-            width: 350px;
-            background-color: #fff;
-            border-radius: 15px;
-            }
-        
-        .logo-item img {
-            width: 160px;
-            height: 160px;
-            margin-right: 5px;
-            transition: margin-right 0.3s;
-            }
-        
-        .logo-item:hover img {
-            margin-left: 0px;
-            position: absolute;
-            }
-        
-        .logo-text {
-            position: absolute;
-            right: 50px;
-            color: #000;
-            font-size: 80px;
-            white-space: nowrap;
-            opacity: 0;
-            transition: opacity 0.3s;
-            }
         
         .logo-item:hover .logo-text {
             opacity: 1;
@@ -120,14 +69,35 @@
             background-color: #f4f4f4;
             position: relative;
             }
+
+        .logo {
+            position: absolute;
+            left: -100px;
+            top: 20px;
+            width: 100px;
+            transition: left 0.5s;
+            }
+        .logo img {
+            width: 100%;
+            }
+        .logo:hover {
+            left: 10px;
+            }
                 
         .menu-bar {
             display: flex;
-            flex-direction: column;
-            gap: 20px;
-            background-color: rgba(255,255,255,0.5);
-            padding: 30px;
+            flex-direction: row;
+            gap: 15px;
+            background: #2c3e50;
+            padding: 10px;
             border-radius: 10px;
+            position: absolute;
+            left: -200px;
+            transition: left 0.5s;
+            }
+
+        .menu-bar:hover {
+            left: 10px;
             }
         
         .menu-item {
@@ -159,7 +129,6 @@
         
         .menu-item:hover img {
             margin-left: 0px;
-            position: absolute;
             }
         
         .menu-text {
@@ -257,14 +226,10 @@
                 <img src="contact me.png" alt="My Contact">
             <span class="menu-text">Contact Me</span>
          </div>
-                </div>
-   <div class="container1">
-         <div class="logo-bar">
-             <div class="logo-item">
-                <div class="logo-text">JPM
-                 <span src="JPM Logo2.png" alt="Logo"></span>
+           <div class="logo">
+                <img src="JPM Logo2.png" alt="Logo">
          </div>
-        
+                      
     </div>
 
     </style>
