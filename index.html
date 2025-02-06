@@ -4,6 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Jade Macaambac Bio</title>
     <style>
+         @keyframes explode {
+            0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
+            100% { transform: translate(calc(50px - 100px * Math.random()), calc(50px - 100px * Math.random())) rotate(360deg); opacity: 0; }
+            }
         
          body {
             font-family: Century Gothic, sans-serif;
@@ -17,19 +21,7 @@
             min-height: 100vh;
             }
 
-           .container {
-            text-align: left;
-            background-image: url('JPM Logo.jpg');
-            background-size: cover;
-            background-position: center;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-            max-width: 800px;
-            width: 90%;
-            }
-      
-        .logo {
+          .logo {
             position: absolute;
             left: -100px;
             top: 20px;
@@ -43,6 +35,18 @@
             left: 10px;
             }
         
+           .container {
+            text-align: left;
+            background-image: url('JPM Logo.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+            max-width: 800px;
+            width: 90%;
+            }
+              
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -164,7 +168,7 @@
     <div class="container">
                 <div>
                 <h1>JADE MACAAMBAC, CSP, CST, OSH-SO3</h1>
-                <h2>Security Professional and Basic Graphic Design</h2>
+                <h2><strong>Security Professional and Basic Graphic Design</strong></h2>
                 </div>
              </div>
          <div class="logo">
@@ -203,56 +207,19 @@
     <div class= "footer">
         <p>&copy; 2025 Jade Macaambac Website. All Rights Reserved.</p>
 
-         <div class= "icon">
+            <div class= "icon">
             <a href="https://jmacaambac.github.io/jmwebsite/" target="_blank"><img src="github.png" alt="GitHub" width="40">
-                    <span class="icon">My Website</span>
+                
             <div class= "icon">
                 <a href="https://www.linkedin.com/in/jademacaambac?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrMieWdntQ1GkHTaZgXDnyA%3D%3D" target="_blank"> <img src="linkedin.png" alt="LinkedIn" width="40">
-                    <span class="icon">My LinkedIn</span>
+             
             <div class= "icon">
                     <a href="https://www.facebook.com/JadePagalaranMacaambac" target="_blank"> <img src="facebook.png" alt="Facebook" width="40">
-                    <span class="icon">My Facebook</span>
+                 
             <div class= "icon">
                         <a href="mailto:jade.macaambac@outlook.com"><img src="email.png" alt="GitHub" width="40"></a>
-                    <span class="icon">My Contact</span>
+                   
             </div>
      </div>
-
-    <script>
-        function shatterLogo() {
-            const logo = document.getElementById('main-logo');
-            const shatteredContainer = document.getElementById('shattered-logo');
-
-            logo.style.display = 'none';
-
-            shatteredContainer.innerHTML = '';
-            for (let i = 0; i < 25; i++) {
-                let piece = document.createElement('div');
-                piece.style.backgroundPosition = `${-(i % 5) * 20}px ${-Math.floor(i / 5) * 20}px`;
-                piece.style.left = `${(i % 5) * 20}px`;
-                piece.style.top = `${Math.floor(i / 5) * 20}px`;
-                piece.style.animation = `explode 0.6s ease-out forwards`;
-                shatteredContainer.appendChild(piece);
-            }
-        }
-
-        document.addEventListener("animationend", function() {
-            document.getElementById("shattered-logo").style.display = "none";
-        });
-
-        document.addEventListener("click", function() {
-            document.getElementById("main-logo").style.display = "block";
-            document.getElementById("shattered-logo").innerHTML = "";
-        });
-
-        document.head.insertAdjacentHTML("beforeend", `
-            <style>
-                @keyframes explode {
-                    0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
-                    100% { transform: translate(calc(50px - 100px * Math.random()), calc(50px - 100px * Math.random())) rotate(360deg); opacity: 0; }
-                }
-            </style>
-        `);
-    </script>
 </body>
 </html>
