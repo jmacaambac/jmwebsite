@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,6 +22,32 @@
             min-height: 100vh;
             }
 
+        .container {
+            text-align: left;
+            background-image: url('JPM Logo.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+            max-width: 800px;
+            width: 90%;
+            }
+
+        .logo {
+            position: absolute;
+            left: -100px;
+            top: 20px;
+            width: 100px;
+            transition: left 0.5s;
+            }
+        .logo img {
+            width: 100%;
+            }
+        .logo:hover {
+            left: 10px;
+            }
+
         .container2 {
             text-align: center;
             background-color: #E8E3E3;
@@ -31,9 +58,19 @@
             width: 90%;
             margin-bottom: 10px;
             }
+          
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            position: relative;
+            }
 
         .container1 {
-            text-align: center;
+            text-align: left;
             background-image: url('circuit.jpg');
             background-size: cover;
             background-position: center;
@@ -43,25 +80,7 @@
             max-width: 800px;
             width: 90%;
             }
-
-           .container {
-            position: absolute;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-        }
-
-         .logo {
-            position: relative;
-            width: 100px;
-            transition: transform 0.5s;
-        }
-        .logo img {
-            width: 100%;
-        }
-        .container:hover .logo {
-            transform: translateX(-10px);
-        }
+        
         .menu-bar {
             display: flex;
             flex-direction: column;
@@ -70,62 +89,68 @@
             padding: 10px;
             border-radius: 10px;
             position: absolute;
-            right: -200px;
-            top: 100px;
-            transition: right 0.5s;
-        }
-        .container:hover .menu-bar {
-            right: 10px;
-        }
+            left: -300px;
+            transition: left 0.5s;
+            }
+
+        .menu-bar:hover {
+            left: 10px;
+            }
+        
         .menu-item {
             position: relative;
             width: 50px;
             height: 50px;
-            background-color: #3498db;
-            border-radius: 50%;
+            background-color: #326C35;
+            border-radius: 20%;
             display: flex;
             justify-content: center;
             align-items: center;
             cursor: pointer;
             transition: width 0.3s, background 0.3s;
             overflow: hidden;
-        }
+            }
+        
         .menu-item:hover {
-            width: 180px;
-            background-color: #2980b9;
-            border-radius: 25px;
-        }
+            width: 350px;
+            background-color: #A02020;
+            border-radius: 15px;
+            }
+        
         .menu-item img {
-            width: 30px;
-            height: 30px;
+            width: 40px;
+            height: 40px;
             margin-left: 10px;
             transition: margin-left 0.3s;
-        }
+            }
+        
         .menu-item:hover img {
-            margin-left: 10px;
-        }
+            margin-left: 0px;
+            }
+        
         .menu-text {
             position: absolute;
-            left: 60px;
+            left: 120px;
             color: #fff;
-            font-size: 16px;
+            font-size: 20px;
             white-space: nowrap;
             opacity: 0;
             transition: opacity 0.3s;
-        }
+            }
+        
         .menu-item:hover .menu-text {
             opacity: 1;
-        }
+            }
         
         h1 {
             margin: 0;
-            font-size: 2rem;
+            font-size: 2.5rem;
             }
 
         h2 {
             margin: 10px 0 20px;
             font-weight: 300;
-            color: #000;
+            color: #666;
             }
        
         .content {
@@ -165,21 +190,19 @@
     </style>
 </head>
 <body>
-    <div class="container2">
+    
             <div>
                 <h1>JADE MACAAMBAC, CSP, CST, OSH-SO3</h1>
                 <h2><strong>Security Professional and Basic Graphic Design</strong></h2>
-                <h1></h1>
-            </div>
-    <div class="container2">
-      <div class="container1">
+                </div>
+    
+      <div class="container">
           <div class="logo">
                 <img src="JPM Logo2.png" alt="Logo">
-          </div>
       </div>
+ </div>
           
-    <div section="container1">
-        <div class="container">
+    <div class="container1">
          <div class="menu-bar">
             <div class="menu-item">
                 <img src="about.png" alt="About">
@@ -208,8 +231,7 @@
      </div>
  </div>
 </body>
-     <div class= "footer">
-         
+         <div section= "footer">
         <p>&copy; 2025 Jade Macaambac Website. All Rights Reserved.</p>
 
             <div class= "icon">
@@ -224,5 +246,5 @@
             <div class= "icon">
                         <a href="mailto:jade.macaambac@outlook.com"><img src="email.png" alt="GitHub" width="40"></a>
             </div>
-        </div>
+
 </html>
