@@ -22,6 +22,20 @@
             height: 100vh;
             background-color: #f4f4f4;
             }
+
+        .logo {
+            position: absolute;
+            left: -100px;
+            top: 20px;
+            width: 100px;
+            transition: left 0.5s;
+            }
+        .logo img {
+            width: 100%;
+            }
+        .logo:hover {
+            left: 10px;
+            }
             
         .container {
             text-align: left;
@@ -111,20 +125,7 @@
             font-weight: 300;
             color: #666;
             }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            margin-bottom: 20px;
-            position: relative;
-            cursor: pointer;
-            }
-
-        .logo img {
-            max-width: 100px;
-            margin-right: 20px;
-            }
-        
+       
         .content {
             flex: 1;
             }
@@ -163,39 +164,39 @@
 </head>
 <body>
     <div class="container">
-        <div class="logo" onclick="window.location.href='index.html';">
-            <img id="main-logo" src="JPM Logo2.png" alt="JPM Official Logo" onmouseover="shatterLogo()">
-            <div class="shattered" id="shattered-logo"></div>
-            <div>
+                <div>
                 <h1>JADE MACAAMBAC, CSP, CST, OSH-SO3</h1>
                 <h2>Security Professional and Basic Graphic Design</h2>
-            </div>
-        </div>
-       <div class="menu-bar">
-        <div class="menu-item">
-            <img src="about.png" alt="About">
+                </div>
+             </div>
+         <div class="logo">
+                <img src="JPM Logo2.png" alt="Logo">
+                </div>
+         <div class="menu-bar">
+            <div class="menu-item">
+                <img src="about.png" alt="About">
             <span class="menu-text">About</span>
-        </div>
-        <div class="menu-item">
-            <img src="skills.png" alt="Skills">
+         </div>
+         <div class="menu-item">
+                <img src="skills.png" alt="Skills">
             <span class="menu-text">Skills</span>
-        </div>
-        <div class="menu-item">
-            <img src="experience.png" alt="Experience">
+         </div>
+         <div class="menu-item">
+                <img src="experience.png" alt="Experience">
             <span class="menu-text">Experience</span>
-        </div>
-            <div class="menu-item">
-            <img src="project.png" alt="Project">
+         </div>
+         <div class="menu-item">
+                <img src="project.png" alt="Project">
             <span class="menu-text">Project</span>
-        </div>
-            <div class="menu-item">
-            <img src="resume.png" alt="Resume">
+         </div>
+         <div class="menu-item">
+                <img src="resume.png" alt="Resume">
             <span class="menu-text">Resume</span>
-        </div>
-            <div class="menu-item">
-            <img src="contact me.png" alt="My Contact">
+         </div>
+         <div class="menu-item">
+                <img src="contact me.png" alt="My Contact">
             <span class="menu-text">My Contact</span>
-        </div>
+         </div>
     </div>
 
     </style>
