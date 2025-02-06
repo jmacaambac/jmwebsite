@@ -31,16 +31,54 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .logo {
-            width: 100px;
-            transition: transform 0.5s;
+        .logo-bar {
+             display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background: #2c3e50;
+            padding: 10px;
+            border-radius: 10px;
+            transition: all 0.5s;
         }
-        .logo img {
-            width: 100%;
+        .logo-item {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: width 0.3s, background 0.3s;
+            overflow: hidden;
         }
-        .center-container:hover .logo {
-            transform: translateX(-10px);
-            }
+        .logo-item:hover {
+            width: 180px;
+            background-color: #2980b9;
+            border-radius: 25px;
+        }
+        .logo-item img {
+            width: 150px;
+            height: 150px;
+            margin-left: 10px;
+            transition: margin-left 0.3s;
+        }
+        .logo-item:hover img {
+            margin-left: 10px;
+        }
+        .logo-text {
+            position: absolute;
+            left: 60px;
+            color: #fff;
+            font-size: 16px;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .logo-item:hover .logo-text {
+            opacity: 1;
+        }
 
         .container1 {
             text-align: center;
@@ -219,6 +257,11 @@
          <div class="menu-item">
                 <img src="contact me.png" alt="My Contact">
             <span class="menu-text">Contact Me</span>
+         <div class="logo-bar">
+            <div class="logo-item">
+                <img src="JPM Logo.png" alt="Logo">
+            <span class="menu-text">JPM</span>
+            </div>
          </div>
       </div>
  </div>
