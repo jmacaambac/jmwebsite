@@ -31,67 +31,26 @@
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .logo-bar {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            background: #000;
-            padding: 10px;
-            border-radius: 10px;
-            transition: all 0.5s;
-        }
-        .logo-item {
-            position: relative;
+        .logo {
             width: 100px;
-            height: 100px;
-            background-color: #000;
-            border-radius: 2%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            transition: width 0.3s, background 0.3s;
-            overflow: hidden;
+            transition: transform 0.5s;
         }
-        .logo-item:hover {
-            width: 300px;
-            background-color: #fff;
-            border-radius: 25px;
+        .logo img {
+            width: 100%;
         }
-        .logo-item img {
-            width: 90px;
-            height: 90px;
-            margin-left: 50px;
-            transition: margin-left 0.3s;
-        }
-        .logo-item:hover img {
-            margin-left: 100px;
-        }
-        .logo-text {
-            position: absolute;
-            left: 60px;
-            color: #fff;
-            font-size: 16px;
-            white-space: nowrap;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-        .logo-item:hover .logo-text {
-            opacity: 1;
-        }
+        .center-container:hover .logo {
+            transform: translateX(-10px);
+            }
 
         .container1 {
             text-align: center;
-            background-color: #B2DFDB;
-            background-position: center;
-            align-items: center;
+            background-color: #E8E3E3;
             padding: 30px;
             border-radius: 20px;
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-            max-width: 1800px;
+            max-width: 2200px;
             width: 90%;
             margin-top: 20px;
-            margin-bottom: 10px;
             }
           
         body {
@@ -125,7 +84,7 @@
             background-color: rgba(255,255,255,0.75);
             padding: 10px;
             border-radius: 30px;
-            position: center;
+            position: right;
             left: -500px;
             transition: left 0.5s;
             }
@@ -133,26 +92,7 @@
         .menu-bar:hover {
             left: 10px;
             }
-         .left-menu, .right-menu {
-            position: fixed;
-            top: 50%;
-            transform: translateY(-50%);
-            display: flex;
-            flex-direction: column;
-            transition: left 0.5s, right 0.5s;
-            }
-        .left-menu {
-            left: -150px;
-            }
-        .left-menu:hover {
-            left: 10px;
-            }
-        .right-menu {
-            right: -150px;
-            }
-        .right-menu:hover {
-            right: 10px;
-            }
+        
         .menu-item {
             position: relative;
             width: 50px;
@@ -174,8 +114,8 @@
             }
         
         .menu-item img {
-            width: 10px;
-            height: 10px;
+            width: 30px;
+            height: 30px;
             margin-left: 10px;
             transition: margin-left 0.3s;
             }
@@ -199,8 +139,8 @@
             }
         
         h1 {
-            margin-top: 20px;
-            font-size: 2rem;
+            margin: 0;
+            font-size: 2.5rem;
             }
 
         h2 {
@@ -225,7 +165,7 @@
             height: auto;
             }
         .icon:hover {
-           transform: scale(1.3);
+           transform: scale(1.4);
             }
         
         footer {
@@ -246,62 +186,39 @@
     </style>
 </head>
 <body>
-  <div>
+      <div class="logo">
+            <img src="JPM Logo.png" class="logo-hover" alt="My Logo">
+      </div>
+            <div>
                 <h1>JADE MACAAMBAC, CSP, CST, OSH-SO3</h1>
                 <h2><strong>Security Professional and Basic Graphic Design</strong></h2>
-  </div>
+                </div>
     
  <div class="container2">
-     <div class="left-menu">
          <div class="menu-bar">
             <div class="menu-item">
-               <a href="About Page.png"> <img src="about.png" alt="About">
-           </a> </div>
-      
-               <a href="Skills Page.png"><img src="skills.png" alt="Skills">
-           </a> </div>
-       
-               <a href="Experience Page.png"><img src="experience.png" alt="Experience">
-          </a> </div>
-  
-                <a href="https://drive.google.com/drive/folders/1rFNJBQ2YILCvsLM7S93YuR212mzpdwTe?usp=drive_link" target="_blank"><img src="project.png" alt="Project">
-           </a> </div>
-  
-                <a href="https://jmacaambac.github.io/jpm/"><img src="resume.png" alt="Resume">
-           </a> </div>
-   
-                <a href="Contacts.png"><img src="contact me.png" alt="My Contact">
-          </a> </div>
-               </div>
-    
-         <div class="right-menu">
-           <div class="menu-bar">
-             <div class="menu-item">
-               <a href="About Page.png"> <img src="about.png" alt="About">
-          </a> </div>
-    
-                <a href="Skills Page.png"><img src="skills.png" alt="Skills">
-           </a> </div>
-    
-                 <a href="Experience Page.png"><img src="experience.png" alt="Experience">
-         </a> </div>
-
-                <a href="https://drive.google.com/drive/folders/1rFNJBQ2YILCvsLM7S93YuR212mzpdwTe?usp=drive_link" target="_blank"><img src="project.png" alt="Project">
-          </a> </div>
-   
-                <a href="https://jmacaambac.github.io/jpm/"><img src="resume.png" alt="Resume">
-         </a> </div>
-    
-                <a href="Contacts.png"><img src="contact me.png" alt="My Contact">
-          </a> </div>
+                <img src="about.png" alt="About">
+            <span class="menu-text">About</span>
          </div>
+         <div class="menu-item">
+                <img src="skills.png" alt="Skills">
+            <span class="menu-text">Skills</span>
          </div>
-          
-         <div class="logo-bar">
-            <div class="logo-item">
-                <img src="JPM Logo.png" alt="Logo">
-            <span class="menu-text">JPM</span>
-            </div>
+         <div class="menu-item">
+                <img src="experience.png" alt="Experience">
+            <span class="menu-text">Experience</span>
+         </div>
+         <div class="menu-item">
+                <img src="project.png" alt="Project">
+            <span class="menu-text">Project</span>
+         </div>
+         <div class="menu-item">
+                <img src="resume.png" alt="Resume">
+            <span class="menu-text">Resume</span>
+         </div>
+         <div class="menu-item">
+                <img src="contact me.png" alt="My Contact">
+            <span class="menu-text">Contact Me</span>
          </div>
       </div>
  </div>
@@ -311,19 +228,18 @@
       <div class= "footer">
         <div class="container1">
             <p>&copy; 2025 Jade Macaambac Website. All Rights Reserved.</p>
-        </div>
 
             <div class= "icon">
-            <a href="https://jmacaambac.github.io/jmwebsite/" target="_blank"><img src="github.png" alt="GitHub"></a>
+            <a href="https://jmacaambac.github.io/jmwebsite/" target="_blank"><img src="github.png" alt="GitHub" width="40"></a>
                 
             <div class= "icon">
-                <a href="https://www.linkedin.com/in/jademacaambac?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrMieWdntQ1GkHTaZgXDnyA%3D%3D" target="_blank"> <img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.linkedin.com/in/jademacaambac?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrMieWdntQ1GkHTaZgXDnyA%3D%3D" target="_blank"> <img src="linkedin.png" alt="LinkedIn" width="40"></a>
              
             <div class= "icon">
-                    <a href="https://www.facebook.com/JadePagalaranMacaambac" target="_blank"> <img src="facebook.png" alt="Facebook"></a>
+                    <a href="https://www.facebook.com/JadePagalaranMacaambac" target="_blank"> <img src="facebook.png" alt="Facebook" width="40"></a>
                  
             <div class= "icon">
-                        <a href="mailto:jade.macaambac@outlook.com"><img src="email.png" alt="My Email"</a>
+                        <a href="mailto:jade.macaambac@outlook.com"><img src="email.png" alt="GitHub" width="40"></a>
 </div>
 </div> 
 </div> 
