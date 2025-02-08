@@ -96,7 +96,7 @@
             margin-top: 5px;
             }
         
-        .menu-bar {
+        .menu-bar1 {
             display: flex;
             flex-direction: column;
             gap: 15px;
@@ -109,8 +109,23 @@
             transition: left 0.5s;
             }
 
-        .menu-bar:hover {
+        .menu-bar2 {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background: #607D8B;
+            background-color: rgba(255,255,255,0.75);
+            padding: 10px;
+            border-radius: 30px;
+            position: left;
+            left: 500px;
+            transition: right 0.5s;
+            }
+        .menu-bar1:hover {
             left: 10px;
+            }
+        .menu-bar2:hover {
+            right: 10px;
             }
         
         .left-menu, .right-menu {
@@ -236,7 +251,7 @@
 
  <div class="container2">
      <div section="left-menu">  
-        <div class="menu-bar">
+        <div class="menu-bar1">
             <div class="menu-item">
                 <img src="about.png" alt="About">
             <span class="menu-text">About</span>
@@ -264,7 +279,7 @@
        </div>
             
       <div section="right-menu">
-         <div class="menu-bar">
+         <div class="menu-bar2">
              <div class="menu-item">
                 <a href="https://jmacaambac.github.io/jpmgallery/"><img src="gallery.png" alt="My Gallery">
             <span class="menu-text">My Gallery</span></a>
