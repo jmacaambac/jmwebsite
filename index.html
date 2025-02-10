@@ -1,340 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Jade Macaambac Bio</title>
-    <style>
-         @keyframes explode {
-            0% { transform: translate(0, 0) rotate(0deg); opacity: 1; }
-            100% { transform: translate(calc(50px - 100px * Math.random()), calc(50px - 100px * Math.random())) rotate(360deg); opacity: 0; }
-            }
-        
-         body {
-            font-family: Century Gothic, sans-serif;
-            margin: 0;
-            padding: 30px;
-            background-image: url('jade4.jpg');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        
-            }
-         .header {
-            font-size: 35px;
-            font-weight: bold;
-            margin-top: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-         }
-        .header img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-top: 20px;
-        }
-            .subtitle {
-            font-size: 25px;
-            color: black;
-        }
-         .center-container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-         }
-        .logo {
-            width: 100px;
-            transition: transform 0.5s;
-        }
-        .logo img {
-            width: 100%;
-        }
-        .center-container:hover .logo {
-            transform: translateX(200px);
-            }
+<style>
+    #skills-training {
+        font-family: "Century Gothic", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        width: 60%;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    }
+    li:hover {
+        transform: scale(1.05);
+        background-color: #f0f0f0;
+    }
+</style>
 
-        .container1 {
-            text-align: center;
-            background-color: #E8E3E3;
-            background-position: center;
-            padding: 30px;
-            border-radius: 20px;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-            max-width: 1900px;
-            width: 90%;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            }
-          
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-            position: relative;
-            }
-
-        .container2 {
-            text-align: center;
-            background-image: url('circuit.jpg');
-            background-size: cover;
-            background-position: center;
-            padding: 30px;
-            border-radius: 50px;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-            max-width: 1800px;
-            width: 90%;
-            margin-bottom: 10px;
-            margin-top: 5px;
-            }
-        
-        .menu-bar1 {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            background: #607D8B;
-            background-color: rgba(255,255,255,0.75);
-            padding: 10px;
-            border-radius: 30px;
-            position: right;
-            left: -500px;
-            transition: left 0.5s;
-            }
-
-        .menu-bar2 {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            background: #607D8B;
-            background-color: rgba(255,255,255,0.75);
-            padding: 10px;
-            border-radius: 30px;
-            position: left;
-            left: 500px;
-            transition: right 0.5s;
-            }
-        .menu-bar1:hover {
-            left: 10px;
-            }
-        .menu-bar2:hover {
-            right: 10px;
-            }
-        
-        .left-menu, .right-menu {
-            position: fixed;
-            top: 50%;
-            transform: translateY(-50%);
-            display: flex;
-            flex-direction: row;
-            transition: left 0.5s, right 0.5s;
-            }
-        .left-menu {
-            left: -150px;
-            }
-        .left-menu:hover {
-            left: 10px;
-            }
-        .right-menu {
-            right: -150px;
-            }
-        .right-menu:hover {
-            right: 10px;
-            }
-        
-        .menu-item {
-            position: relative;
-            width: 50px;
-            height: 50px;
-            background-color: #326C35;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            transition: width 0.3s, background 0.3s;
-            overflow: hidden;
-            }
-        
-        .menu-item:hover {
-            width: 300px;
-            background-color: #A02020;
-            border-radius: 15px;
-            }
-        
-        .menu-item img {
-            width: 30px;
-            height: 30px;
-            margin-left: 10px;
-            transition: margin-left 0.3s;
-            }
-        
-        .menu-item:hover img {
-            margin-left: 0px;
-            }
-        
-        .menu-text {
-            position: absolute;
-            left: 120px;
-            color: #fff;
-            font-size: 20px;
-            white-space: nowrap;
-            opacity: 0;
-            transition: opacity 0.3s;
-            }
-        
-        .menu-item:hover .menu-text {
-            opacity: 1;
-            }
-        
-        h1 {
-            margin: 0;
-            font-size: 2.5rem;
-            }
-
-        h2 {
-            margin: 10px 0 20px;
-            font-weight: 300;
-            color: #000;
-            }
-       
-        .content {
-            flex: 1;
-            }
-        
-        .icon {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 30px; 
-            transition: transform 0.3s ease;
-             }
-        .icon img {
-            width: 30px;
-            height: auto;
-            }
-        .icon:hover {
-           transform: scale(1.4);
-            }
-        
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            margin-top: 10px;
-            }
-
-        footer a {
-            color: #007BFF;
-            text-decoration: none;
-            }
-
-        footer a:hover {
-            margin-left: 10px;
-            }
-    </style>
-</head>
-<body>
-      <div class="header">
-        <img src="jade3.jpg" alt="Profile Photo">
-          JADE MACAAMBAC, CSP, CST, OSH-SO3
-          </div>
-    <div class="subtitle">Security Professional and Basic Graphic Design</div>
-
- <div class="container2">
-     <div section="left-menu">  
-        <div class="menu-bar1">
-            <div class="menu-item">
-                <img src="about.png" alt="About">
-            <span class="menu-text">About</span>
-         </div>
-         <div class="menu-item">
-                <img src="skills.png" alt="Skills">
-            <span class="menu-text">Skills</span>
-          </div>
-         <div class="menu-item">
-                <img src="experience.png" alt="Experience">
-            <span class="menu-text">Experience</span>
-         </div>
-         <div class="menu-item">
-                <img src="project.png" alt="Project">
-            <span class="menu-text">Project</span>
-        </div>
-         <div class="menu-item">
-                <img src="resume.png" alt="Resume">
-            <span class="menu-text">Resume</span>
-        </div>
-         <div class="menu-item">
-                <img src="contact me.png" alt="My Contact">
-            <span class="menu-text">Contact Me</span>
-         </div>
-       </div>
-            
-      <div section="right-menu">
-         <div class="menu-bar2">
-             <div class="menu-item">
-                <a href="https://jmacaambac.github.io/jpmgallery/"><img src="gallery.png" alt="My Gallery">
-            <span class="menu-text">My Gallery</span></a>
-       </div>
-         <div class="menu-item">
-                <img src="business.png" alt="Skills">
-            <span class="menu-text">Skills</span>
-       </div>
-         <div class="menu-item">
-                <img src="achieve.png" alt="Experience">
-            <span class="menu-text">Experience</span>
-     </div>
-         <div class="menu-item">
-                <img src="career.png" alt="Project">
-            <span class="menu-text">Project</span>
-         </div>
-         <div class="menu-item">
-                <img src="settings.png" alt="Resume">
-            <span class="menu-text">Resume</span>
-       </div>
-         <div class="menu-item">
-                <img src="faq.png" alt="My Contact">
-            <span class="menu-text">Contact Me</span>
-         </div>
-      </div>
+<section id="skills-training">
+    <div class="container">
+        <h2>Skills & Training</h2>
+        <ul>
+            <li>
+                <h3>Operations Risks Management 101</h3>
+                <p><strong>Provider:</strong> MST Connect - OCE-2022-062</p>
+                <p><strong>Date:</strong> July 2023</p>
+            </li>
+            <li>
+                <h3>Project Management and Leadership 101</h3>
+                <p><strong>Provider:</strong> MST Connect - OCE-2022-062</p>
+                <p><strong>Date:</strong> August 2023</p>
+            </li>
+            <li>
+                <h3>Lean Six Sigma White Belt</h3>
+                <p><strong>Provider:</strong> ASQ Certified MBB - 65316044</p>
+                <p><strong>Date:</strong> February 1, 2023</p>
+            </li>
+            <li>
+                <h3>Front Office National Certificate II</h3>
+                <p><strong>Provider:</strong> TESDA - NCR</p>
+                <p><strong>Date:</strong> May 2020</p>
+            </li>
+            <li>
+                <h3>Loss Control Management and HIRAC (SO3)</h3>
+                <p><strong>Provider:</strong> BeSafe Training Management</p>
+                <p><strong>Date:</strong> September 12-15, 2022</p>
+            </li>
+            <li>
+                <h3>Quality Management System - ISO 9001:2015</h3>
+                <p><strong>Provider:</strong> CQL Business Systems Consulting</p>
+                <p><strong>Date:</strong> May 11, 2018</p>
+            </li>
+             <li>
+                <h3>16TH NOSH CONGRESS</h3>
+                <p><strong>Provider:</strong> OSH Center</p>
+                <p><strong>Date:</strong> November 20-21, 2018</p>
+            </li>
+             <li>
+                <h3>PRIVATE SECURITY EXECUTIVE MANAGEMENT</h3>
+                <p><strong>Provider:</strong> PNP-CSG SOSIA</p>
+                <p><strong>Date:</strong> September 29-30, 2016</p>
+            </li>
+             <li>
+                <h3>CERTIFIED SECURITY TRAINER</h3>
+                <p><strong>Provider:</strong> CQL Business Systems Consulting</p>
+                <p><strong>Date:</strong> May 11, 2018</p>
+            </li>
+             <li>
+                <h3>BASIC OCCUPATIONAL SAFETY AND HEALTH (BWC-DOLE)</h3>
+                <p><strong>Provider:</strong> PSIS, License 13-252-5271</p>
+                <p><strong>Date:</strong> April 30, 2014 – Present</p>
+            </li>
+             <li>
+                <h3>CERTIFIED SECURITY PROFESSIONAL</h3>
+                <p><strong>Provider:</strong> PSIS, License 13-252-5271</p>
+                <p><strong>Date:</strong> February 2013 – Present</p>
+            </li>
+             <li>
+                <h3>INFORMATION SECURITY MANAGEMENT SYSTEMS TRAINING</h3>
+                <p><strong>Provider:</strong> Accenture Pioneer House</p>
+                <p><strong>Date:</strong> February 24 – 25, 2011</p>
+            </li>
+             <li>
+                <h3>BUSINESS CONTINUITY MANAGEMENT TRAINING</h3>
+                <p><strong>Provider:</strong> Accenture Pioneer House Bldg.</p>
+                <p><strong>Date:</strong> March 1, 2011</p>
+            </li>
+             <li>
+                <h3>FIRST AID TRAINING (STANDARD)</h3>
+                <p><strong>Provider:</strong> Philippine National Red Cross Cebu Chapter</p>
+                <p><strong>Date:</strong> September 6 – 9, 2010</p>
+            </li>
+             <li>
+                <h3>BASIC LIFE SUPPORT (CPR for HEALTHCARE PROVIDER)</h3>
+                <p><strong>Provider:</strong> Philippine National Red Cross Cebu Chapter</p>
+                <p><strong>Date:</strong> September 14 – 15, 2010</p>
+            </li>
+        </ul>
     </div>
-  </div>   
-
-  <div class="center-container">   
-    <div class="logo">
-        <img src="JPM Logo2.png" alt="JPM Logo">
-      </div>
- </div>
-    
-</body>
- 
-    <div section="footer">         
-      <div class= "footer">
-        <div class="container1">
-            <p>&copy; 2025 Jade Macaambac Website. All Rights Reserved.</p>
-</div>
-            <div class= "icon">
-            <a href="https://jmacaambac.github.io/jmwebsite/" target="_blank"><img src="github.png" alt="GitHub" width="40"></a>
-                
-            <div class= "icon">
-                <a href="https://www.linkedin.com/in/jademacaambac?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrMieWdntQ1GkHTaZgXDnyA%3D%3D" target="_blank"> <img src="linkedin.png" alt="LinkedIn" width="40"></a>
-             
-            <div class= "icon">
-                    <a href="https://www.facebook.com/JadePagalaranMacaambac" target="_blank"> <img src="facebook.png" alt="Facebook" width="40"></a>
-                 
-            <div class= "icon">
-                        <a href="mailto:jade.macaambac@outlook.com"><img src="email.png" alt="GitHub" width="40"></a>
-
-</div> 
-</div> 
-</div>
- 
-</html>
+</section>
