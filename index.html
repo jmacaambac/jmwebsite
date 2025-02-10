@@ -28,7 +28,7 @@
         transform: scale(1.05);
         background-color: #f0f0f0;
     }
-     .home-button {
+    .home-button {
             display: inline-block;
             margin-top: 20px;
             padding: 10px 20px;
@@ -36,10 +36,17 @@
             color: white;
             text-decoration: none;
             border-radius: 5px;
-        }
-        .home-button:hover {
+    }
+    .home-button:hover {
             background-color: #e1ed02;
-        }
+    }
+    .logo {
+            width: 75px;
+            transition: transform 0.3s ease-in-out;
+    }
+    .logo:hover {
+            transform: scale(1.5);
+    }
 </style>
 
 <section id="skills-training">
@@ -123,5 +130,8 @@
             </li>
         </ul>
         <a href="https://jmacaambac.github.io/mywebprofile/" class="home-button">Home</a>
+    </div>
+    <div>
+       <img src="JPM Logo2.png" class="logo-hover" alt="My Logo" style="width: 100px;  display: inline-block;">
     </div>
 </section>
