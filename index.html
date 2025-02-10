@@ -1,5 +1,5 @@
 <style>
-    #skills-training {
+#skills-training {
         font-family: "Century Gothic", sans-serif;
         display: flex;
         justify-content: center;
@@ -8,7 +8,6 @@
     }
     .container {
         width: 60%;
-        margin-top: 40px;
         background-color: #fff;
         padding: 20px;
         border-radius: 10px;
@@ -20,6 +19,9 @@
         padding: 0;
     }
     li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         margin-bottom: 20px;
         padding: 10px;
         border-radius: 8px;
@@ -28,6 +30,18 @@
     li:hover {
         transform: scale(1.5);
         background-color: #B2EBF2;
+    }
+    .icon {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+    }
+    .logo:hover {
+            transform: scale(1.7);
+    }
+    .training-content {
+        flex: 1;
+        text-align: left;
     }
     .home-button {
             display: inline-block;
