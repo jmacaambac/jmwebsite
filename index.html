@@ -74,10 +74,33 @@
     }
     
 </style>
-
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const audio = document.getElementById("bg-music");
+        const muteBtn = document.getElementById("mute-btn");
+        audio.oncanplaythrough = function() {
+            console.log("Audio is ready to play!");
+            audio.muted = false;
+        };
+        muteBtn.addEventListener("click", function () {
+            if (audio) {
+                audio.muted = !audio.muted;
+                if (audio.muted) {
+                    muteBtn.textContent = "🔊";
+                } else {
+                    muteBtn.textContent = "🔇";
+                }
+                console.log("Audio muted status:", audio.muted);
+            }
+        });
+    });
+</script>
 <section id="skills-training">
     <div class="container">
      <h1>My Journey of Continuous Learning and Excellence</h1>
+    <div>      
+    <span id="mute-btn" style="cursor: pointer; font-size: 24px;">🔇</span>
+    </div> 
         <p>In a world where growth is the key to success, I have always believed in the power of continuous learning and self-improvement. My journey has been driven by an unwavering commitment to upskilling and upgrading my expertise, ensuring that I stay ahead in an ever-evolving professional landscape.</p>
         <p>From mastering risk management, security operations, and business continuity to earning certifications in project leadership, Six Sigma, and quality management, I have pursued every opportunity to refine my skills. Each training and seminar I have undertaken represents more than just credentials—it embodies my dedication to excellence, adaptability, and a relentless pursuit of knowledge.</p>
         <p>Whether it’s enhancing operational efficiency, leading with strategic foresight, or ensuring safety and security, I have equipped myself with the expertise needed to thrive in high-stakes environments. My commitment to professional development is not just about gaining knowledge—it’s about applying that knowledge to create impactful results and drive meaningful change.</p>
@@ -208,6 +231,10 @@
             <a href="https://jmacaambac.github.io/mywebprofile/" class="home-button">Home</a>
             <div>
         <img src="JPM Logo2.png" class="logo" alt="My Logo" style="width: 100px;  display: inline-block;">
-    </div> 
+    </div>
+     <audio id="bg-music" autoplay loop>
+    <source src="myskillsspeech.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+     </audio>
 </section>
    
